@@ -1,0 +1,17 @@
+GET http://localhost:3000/pastGames
+
+
+
+###
+
+POST http://localhost:3000/summonerInfo/new
+Content-Type: application/json
+
+{
+    "summonerName" : "Elvis123",
+    "rank": "Platinum 4"
+}
+
+
+###
+DELETE http://localhost:3000/summonerInfo/delete/61fe64b28eeea7f755ef4122
